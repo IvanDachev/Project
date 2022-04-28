@@ -1,14 +1,24 @@
-body{
-    border: 3px solid green;
+.picture1{
+    width: 100%;
+    position: relative;
 }
-a{
+
+.picture1>img{
+    display: block;
+    width: 100%;
+    min-width: 768px;
+    max-width: 1500px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+.text{
     display: inline-block;
-    border: 2px solid red;
-    border-radius: 4px;
-    font-size: 16px;
-    height: 2em;
-    width: 3.5em;
-    line-height: 2em;
-    text-decoration: none;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
     text-align: center;
+    margin-top: 1em;
+    font-size: 2em;
 }

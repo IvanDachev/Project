@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    margin-top: 7em;
+}
+
+.question1{
+    width: 80%;
+    margin:1.5em 10% 1.5em 10%;
+    font-size: 1.5em;
+}
+.question1>div{
+    float: right;
+    margin-left: 1em;
+}
+
+.question1>p{
+    display: block;
+    width: 70%;
+}
+
+.picture1{
+    width: 50%;
+}
+.picture1>img{
+    float: right;
+    width: 60%;
+    min-width: 430px;
+}
+
