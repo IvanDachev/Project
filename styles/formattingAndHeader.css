@@ -15,7 +15,7 @@ body{
 }
 
 nav{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0.5em 0;
     width: 100%;
 }
@@ -27,9 +27,8 @@ ul{
 
 li{
     float: left;
-    box-sizing: border-box;
     text-align: center;
-    line-height: 3em;
+    border-radius: 5px;
 }
 
 .clearfix::after{
@@ -38,13 +37,15 @@ li{
     clear: both;
 }
 
-a{
+li>a{
     font-size: 1.5em;
     color: #7f4d2a;
     text-decoration: none;
-    line-height: 3em;
+    line-height: 2em;
     margin: 1em;
 }
 
-
+li:hover{
+    box-shadow: 0px 0px 5px 10px rgba(198, 186, 186, 0.75);
+}
 

@@ -3,27 +3,76 @@
     margin-top: 7em;
 }
 
-.question1{
+.h-divider {
+    margin: auto;
+    margin-top: 80px;
     width: 80%;
-    margin:1.5em 10% 1.5em 10%;
+    position: relative;
+}
+
+.h-divider .shadow {
+    overflow: hidden;
+    height: 20px;
+}
+
+.h-divider .shadow:after {
+    content: '';
+    display: block;
+    margin: -25px auto 0;
+    width: 100%;
+    height: 25px;
+    border-radius: 125px/12px;
+    box-shadow: 0 0 8px black;
+}
+
+.section{
+    width: 80%;
+    margin:1.5em 10% 2em 10%;
     font-size: 1.5em;
 }
-.question1>div{
+
+.bold{
+    font-size: 120%;
+}
+
+
+.first>img{
     float: right;
     margin-left: 1em;
+    max-width: 450px;
 }
 
-.question1>p{
-    display: block;
-    width: 70%;
+.first>p{
+    text-align: left;
 }
 
-.picture1{
-    width: 50%;
+.second>img{
+    float: left;
+    margin-right: 1em;
+    max-width: 450px;
 }
-.picture1>img{
+
+.second>p{
+    text-align: right;
+}
+
+.third>img{
     float: right;
-    width: 60%;
-    min-width: 430px;
+    margin-left: 1em;
+    max-width: 450px;
+}
+
+.third>p{
+    text-align: left;
+}
+
+.fourth>img{
+    float: right;
+    margin-left: 1em;
+    max-width: 450px;
+}
+
+.fourth>p{
+    text-align: left;
 }
 

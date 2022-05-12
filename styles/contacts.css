@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    margin-top: 7em;
+}
+
+.photo{
+    text-align: center;
+}
+
+.container-inner{
+    display: flex;
+    text-align: center;
+    margin: 1em auto;
+    width: 70%;
+}
+
+.contact{
+    margin: 0 auto;
+    width: 33%;
+}
+
+.contact>img{
+    text-align: center;
+}
+
+.email>img{
+    margin-bottom: 30px;
+}
+
+.facebook>img{
+    margin-bottom: 33px;
+}
+
+.maps{
+    text-align: center;
+    margin: 5em auto;
+    width: 70%;
+}
+
+.location{
+    margin: 0 auto;
+}
+
+.location>p{
+    margin-bottom: 1em;
+}
